@@ -216,7 +216,12 @@ h1 {
   border: 1px solid var(--brand-color);
   background-color: var(--brand-color);
 }*/
-
+/*.check-box-input:checked {
+  background-image: url('..//images/icons.svg#icon-Rectangle-11 viewBox="0 0 34 32');
+  height: 16px;
+  width: 16px;
+  border: red solid 2px;
+}
 .check-box-input {
   cursor: pointer;
   -webkit-appearance: none;
@@ -230,14 +235,18 @@ h1 {
   color: #fff;
   border-radius: 2px;
 }
-.check-box-input:checked {
+*/
+.check-box-input {
+  display: none;
+}
+.data-agreement > label {
   cursor: pointer;
-  outline: 0;
-  background-image: url('../images/icons.svg#icon-check');
-  height: 16px;
-  width: 16px;
-  border: none;
-  content: '';
+}
+.check-box-input + span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: url(../images/icons.svg#icon-check) 8px no-repeat center;
 }
 
 .modal > form > label > p {
