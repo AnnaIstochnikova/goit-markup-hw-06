@@ -594,6 +594,7 @@ figcaption {
 footer {
   background-color: #2f303a;
   display: flex;
+  justify-content: baseline;
 }
 .container-footer {
   padding-top: 60px;
